@@ -1,0 +1,12 @@
+{
+  "loginTitle": "Connexion",
+  "emailLabel": "Email",
+  "passwordLabel": "Mot de passe",
+  "cguLabel": "J'accepte les conditions d'utilisation",
+  "loginButton": "Se connecter",
+  "emailRequired": "Email requis",
+  "emailInvalid": "Format email invalide",
+  "passwordRequired": "Mot de passe requis",
+  "cguRequired": "Vous devez accepter les conditions",
+  "loginSuccess": "Utilisateur connecté"
+}

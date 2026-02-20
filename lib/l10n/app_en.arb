@@ -1,0 +1,12 @@
+{
+  "loginTitle": "Login",
+  "emailLabel": "Email",
+  "passwordLabel": "Password",
+  "cguLabel": "I accept the terms and conditions",
+  "loginButton": "Sign in",
+  "emailRequired": "Email required",
+  "emailInvalid": "Invalid email format",
+  "passwordRequired": "Password required",
+  "cguRequired": "You must accept the terms",
+  "loginSuccess": "User connected"
+}

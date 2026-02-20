@@ -19,7 +19,7 @@ class AccueilPage extends StatelessWidget{
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
 
-              /// 🔝 Partie Présentation
+
               Text(
                 "Bienvenue sur notre boutique",
                 style: Theme.of(context).textTheme.headlineSmall,
@@ -104,6 +104,20 @@ class AccueilPage extends StatelessWidget{
                                     }
 
                                     context.read<CartProvider>().add(product);
+
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                      SnackBar(
+                                        content: Text("${product.title} ajouté au panier"),
+                                        duration: const Duration(seconds: 2),
+                                      ),
+                                    );
+
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                      SnackBar(
+                                        content: Text("${product.title} ajouté au panier"),
+                                        duration: const Duration(seconds: 2),
+                                      ),
+                                    );
                                   },
                                   child: const Text("Ajouter"),
                                 ),
